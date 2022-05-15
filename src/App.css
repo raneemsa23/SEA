@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+button,a,Link{
+    cursor: pointer;
+}
+.list a{
+    text-decoration: none;
+    width: 100%;
+    color: rgb(82, 81, 81);
+}
+
+.list a:hover{
+    color: #5688f5;
+    
+}
+.list a:hover .icon{
+    color: #5688f5;
+    
+}
+.active{
+    background-color: #f4f4f4;
+}
+.test{
+    color: #1976d2;
+}
+:root,body{
+	overflow-x: hidden;
+	-webkit-overflow-x:hidden;
+	-moz-overflow-x:hidden;
+	-ms-overflow-x:hidden;
+	-o-overflow-x:hidden;
+
+
+	
+}
